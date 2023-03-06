@@ -49,5 +49,19 @@ else:
 # In[ ]:
 
 
+#Update
+if n % 2 == 0:
+    # 2 to 5 range
+    if n in range(2,6): # index : position
+        print("Not Weird")
+    # 6 to 20 range
+    elif n in range(6,21): # index : position
+        print("Weird")
+    # greater than 20
+    elif n > 20:
+        print("Not Weird")
+    # odd
+else:
+    print("Weird")
 
 
