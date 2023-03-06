@@ -49,7 +49,7 @@ else:
 # In[ ]:
 
 
-#Update
+#Update 2023/3/6
 if n % 2 == 0:
     # 2 to 5 range
     if n in range(2,6): # index : position
